@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.pinterest.com/pin/11399805451223631/') no-repeat center center fixed; 
+    background-size: cover;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(183, 92, 151);
+    color: rgb(53, 42, 76);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: rgb(44, 23, 53);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #5f4b8bff;
+    padding-bottom: 0.5rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 1rem;
+}
+
+section ul li h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+section ul li p {
+    margin: 0.5rem 0;
+}
+
+/* Profile Photo Styles */
+.photo-frame {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #5f4b8bff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Family Photo Styles */
+.family-photo-frame {
+    width: 300px;
+    height: 200px;
+    border: 5px solid #5f4b8bff;
+    overflow: hidden;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.family-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Contact Section Styles */
+#contact a {
+    color: #5f4b8bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
